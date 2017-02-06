@@ -2296,9 +2296,8 @@ input[type=submit]:hover {
 }
 
 .blogger-name {
-    text-transform: uppercase;
     font-family: "Lora", serif;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     padding-top: 20px;
 }

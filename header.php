@@ -122,11 +122,13 @@
 <div class="c-section-about">
 	<div class="container main-content-area">
 		<h2 class="entry-title main-text"> Acerca de </h2>
-	 	<p class="main-text">Vivir en otro país, para algunos puede ser un año sabático viajando por el mundo, para otro puede ser ir y aprender un idioma, estudiar una carrera,  o cualquier otro tipo de estudio. Y para muchos más es comenzar un nueva vida y convertir ese nuevo país en una residencia para siempre.<br> 
+	 	<p class="main-text">Vivir en otro país. Para algunos puede ser su año de salir a conocer el mundo, para otros puede ser ir y aprender un idioma, o estudiar una carrera. Para muchos más, es comenzar un nueva vida y convertir ese país en su nuevo hogar.<br>
 
-		<br>Pero hay algo que todos tenemos en común y es que tenemos  miles de  historias que contar, tips, anécdotas, consejos de viaje y mucho más. Y esto es lo que queremos lograr aquí, una comunidad que podamos interactuar y animarse unos a otros. <br>
+		Cualquiera que sea el caso, todos tenemos miles de historias que contar, tips, anécdotas, consejos de viaje y mucho más. <br>
 
-		<br>Tal vez seas un principiante o llevas algún tiempo viendo en otro país  que no es tu lugar de nacimiento, o simplemente no has hecho el gran paso todavia y esta buscando aprender más sobre cómo es esa aventura de mudarse. A todos ustedes le decimos bienvenidos a Viviendo en otro país.  </p>
+		Esta web es un mural de esas historias, una comunidad donde los que nos fuimos, los que volvimos y lo que nos quedamos alla, podemos interactuar y animarnos unos a otros a lanzarnos a la aventura de vivir en otras tierras. <br>
+
+		Tal vez seas un principiante, tal vez ya llevas tiempo viviendo en otro país, o simplemente estas pensándolo. Sea cual sea tu historia,  te damos la bienvenida a Viviendo en otro país.  </p>
 	</div>
 </div>
 
