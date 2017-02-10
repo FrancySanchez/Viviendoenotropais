@@ -24,11 +24,11 @@ function activello_paging_nav() {
 		<div class="nav-links">
 
 			<?php if ( get_next_posts_link() ) : ?>
-			<div class="nav-previous"> <?php next_posts_link( __( 'Older posts', 'activello' ) ); ?></div>
+			<div class="nav-previous"> <?php next_posts_link( __( 'Viejos Post', 'activello' ) ); ?></div>
 			<?php endif; ?>
 
 			<?php if ( get_previous_posts_link() ) : ?>
-			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts', 'activello' ) ); ?> </div>
+			<div class="nav-next"><?php previous_posts_link( __( 'Nuevos Post', 'activello' ) ); ?> </div>
 			<?php endif; ?>
 
 		</div><!-- .nav-links -->
@@ -56,8 +56,8 @@ function activello_post_nav() {
 		<h1 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'activello' ); ?></h1>
 		<div class="nav-links">
 			<?php
-				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<i class="fa fa-chevron-left"></i> %title', 'Previous post link', 'activello' ) );
-				next_post_link(     '<div class="nav-next">%link</div>',     _x( '%title <i class="fa fa-chevron-right"></i>', 'Next post link',     'activello' ) );
+				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<i class="fa fa-chevron-left"></i> %title', 'Previos post link', 'activello' ) );
+				next_post_link(     '<div class="nav-next">%link</div>',     _x( '%title <i class="fa fa-chevron-right"></i>', 'Siguiente post link',     'activello' ) );
 			?>
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->
@@ -83,7 +83,7 @@ function activello_posted_on() {
 		esc_html( get_the_modified_date() )
 	);
 
-	printf( '<span class="posted-on">'. __( 'Posted on', 'activello' ) .' %1$s</span>',
+	printf( '<span class="posted-on">'. __( 'Posteado el', 'activello' ) .' %1$s</span>',
 		sprintf( '<a href="%1$s" rel="bookmark">%2$s</a>',
 			esc_url( get_permalink() ),
 			$time_string

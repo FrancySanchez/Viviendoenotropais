@@ -2368,4 +2368,15 @@ div:focus {
     font-weight: bold;
 }
 
+.page-title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.images-map{    text-align: center;
+
+}
+
 
