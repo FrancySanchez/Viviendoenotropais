@@ -62,7 +62,7 @@
 							Escrito por: <?php the_author(); ?>
 						</div>
 						<div class="row blogger-description">
-							 <?php get_the_author_meta('description'); ?>
+							 <?php echo get_the_author_meta('description'); ?>
 							<!-- <p>Nsusndskndsundkndj abshasa jsaasnajnu asabs</p> -->
 						</div>  						
 					</div>					

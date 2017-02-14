@@ -52,7 +52,7 @@
 				<div class="row">
 					<div class="site-navigation-inner col-sm-12 ">
 						<div class="navbar-header">
-							<a class="navbar-brand c-logo" href="http://localhost:8888/viviendoenotropais">
+							<a class="navbar-brand c-logo" href="http://viviendoenotropais.com">
        					 		<img alt="Brand" src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
       						</a>
 							<button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -136,19 +136,18 @@
 <div class="c-section-about">
 	<div class="container main-content-area">
 		<h2 class="entry-title main-text"> Acerca de </h2>
-	 	<p class="main-text">Vivir en otro país, para algunos puede ser su año de salir a conocer el mundo, para otros puede ser ir y aprender un idioma, o estudiar una carrera. Para muchos más, es comenzar un nueva vida y convertir ese país en su nuevo hogar.<br>
+	 	<p class="main-text">Vivir en otro país, para algunos puede ser su año de salir a conocer el mundo, para otros puede ser ir y aprender un nuevo idioma o estudiar una carrera. Y para muchos más resulta en comenzar un nueva vida y convertir ese país en su nuevo hogar.
+		<br>Cualquiera que sea el caso, todos tenemos miles de historias que contar, tips, anécdotas, consejos de viaje y pare de contar. 
 
-		Cualquiera que sea el caso, todos tenemos miles de historias que contar, tips, anécdotas, consejos de viaje y mucho más. <br>
+		<br>Esta web es un mural de esas historias, una comunidad donde los que nos fuimos, los que volvimos y lo que nos quedamos allá, podemos interactuar y animarnos unos a otros a lanzarnos a la aventura de vivir en otras tierras.
 
-		Esta web es un mural de esas historias, una comunidad donde los que nos fuimos, los que volvimos y lo que nos quedamos alla, podemos interactuar y animarnos unos a otros a lanzarnos a la aventura de vivir en otras tierras. <br>
-
-		Tal vez seas un principiante, tal vez ya llevas tiempo viviendo en otro país, o simplemente estas pensándolo. Sea cual sea tu historia,  te damos la bienvenida a Viviendo en otro país.  </p>
+		<br>Tal vez seas un principiante, tal vez ya llevas tiempo viviendo en otro país o simplemente estás pensándolo. Sea cual sea tu historia, te damos la bienvenida a Viviendo en otro país. </p>
 	</div>
 </div>
 
 	<div class="container main-content-area "><!-- MAP -->
 		<div class="c-section-map hidden-xs">
-		<div class="images-map"><img src="http://localhost:8888/viviendoenotropais/wp-content/themes/activello/img/mapa.png"></div>
+		<div class="images-map"><img src="<?php echo get_template_directory_uri(); ?>/img/mapa.png"></div>
 			<!-- <svg viewBox="0 0 1009 652">
 			  <g>
 			    <path class="AE" d="M619.87,393.72L620.37,393.57L620.48,394.41L622.67,393.93L624.99,394.01L626.68,394.1L628.6,392.03L630.7,390.05L632.47,388.15L633,389.2L633.38,391.64L631.95,391.65L631.72,393.65L632.22,394.07L630.95,394.67L630.94,395.92L630.12,397.18L630.05,398.39L629.48,399.03L621.06,397.51L619.98,394.43z"></path>

@@ -2217,7 +2217,7 @@ path:hover {
 
 .c-section-contacto {
     padding-top: 5px;
-    background: url("/viviendoenotropais/wp-content/themes/activello/img/conectar.png") no-repeat bottom left #f8f8f8;
+    background: url("../activello/img/conectar.png") no-repeat bottom left #f8f8f8;
     background-size: 30%;
 }
 
@@ -2292,7 +2292,7 @@ input[type=submit]:hover {
 .blogger-picture img {
     border-radius: 50%;
     border: 1 px solid #eee;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .blogger-name {
@@ -2311,7 +2311,6 @@ input[type=submit]:hover {
 
 .site-content .metaslider .caption-wrap {
     position: absolute;
-    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     bottom: auto;
@@ -2322,6 +2321,7 @@ input[type=submit]:hover {
     opacity: 1;
     font-family: Courier, serif;
 }
+
 .site-content .metaslider .caption-wrap__button{
     display: block;
     background-color: #45b6a1;
@@ -2330,11 +2330,40 @@ input[type=submit]:hover {
     margin: 2.5rem auto .5rem;
     color: white;
 }
+
+
 .site-content .metaslider .caption-wrap__button:hover{
         background-color: #279581;
         cursor: pointer;
 
 }
+
+@media screen and (max-device-width: 768px) {
+    .site-content .metaslider .caption-wrap {
+        position: absolute;
+        top: 60%;
+        transform: translateY(-50%);
+        bottom: auto;
+        background: transparent;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        opacity: 1;
+        font-family: Courier, serif;
+    }
+    .site-content .metaslider .caption-wrap__button{
+        display: block;
+        background-color: #45b6a1;
+        width: 140px;
+        font-size: 12px;
+        margin: 1.0rem auto .5rem;
+        color: white;
+
+    }
+}
+
+
+
 
 div:focus {
     outline: none;
@@ -2375,8 +2404,13 @@ div:focus {
     text-transform: uppercase;
 }
 
-.images-map{    text-align: center;
+.images-map{    text-align: center;}
 
+.addthis_toolbox path{ fill: #fff; }
+
+@media screen and (max-device-width: 768px) {
+    .navbar-brand>img{
+        width: 180px;
+    }
 }
-
 
